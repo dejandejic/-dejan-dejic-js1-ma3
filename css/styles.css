@@ -1,0 +1,22 @@
+.results {
+  max-width: fit-content;
+  font-size: 20px;
+}
+
+.loader {
+  border: 15px solid rgb(16, 0, 0);
+  border-top: 15px solid rgb(121, 79, 79);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
